@@ -5,11 +5,11 @@ Aplicativo de gerenciamento de tarefas desenvolvido em React, com suporte a troc
 
 ## Funcionalidades
 
-- Adicionar e remover tarefas: Permite a criação e exclusão de itens de forma direta.
-- Marcar como concluída: Altera o status visual da tarefa ao ser finalizada.
-- Filtros por status: Opções para visualizar todas as tarefas, apenas as ativas ou apenas as concluídas.
-- Alternância de tema: Suporte a modo claro e modo escuro com transição de cores.
-- Persistência de dados: O estado das tarefas e o tema selecionado são salvos no `localStorage` do navegador.
+- Adicionar e remover tarefas
+- Marcar como concluída
+- Filtros por status
+- Alternância de tema
+- Persistência de dados
 
 ---
 
