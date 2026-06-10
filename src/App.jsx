@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './styles/themes';
-import { GlobalStyle } from './styles/GlobalStyle';
+import { lightTheme, darkTheme } from './style/Themes';
+import { GlobalStyle } from './style/GlobalStyle';
 
-import Header from './components/Header';
-import FormularioTarefa from './components/FormularioTarefa';
-import Filtros from './components/Filtros';
-import TarefaItem from './components/TarefaItem';
+import Header from './src/components/Header';
+import FormularioTarefa from './src/components/FormularioTarefa';
+import Filtros from './src/components/Filtros';
+import TarefaItem from './src/components/TarefaItem';
 
 export default function App() {
   const [theme, setTheme] = useState(() => {
