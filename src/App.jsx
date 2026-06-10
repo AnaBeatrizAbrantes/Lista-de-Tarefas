@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './style/Themes';
-import { GlobalStyle } from './style/GlobalStyle';
+import { lightTheme, darkTheme } from './styles/Themes';
+import { GlobalStyle } from './styles/GlobalStyle';
 
 import Header from './components/Header';
 import FormularioTarefa from './components/FormularioTarefa';
