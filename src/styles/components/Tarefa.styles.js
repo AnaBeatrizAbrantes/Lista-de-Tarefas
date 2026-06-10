@@ -64,3 +64,44 @@ export const FilterButton = styled.button`
     border-color: ${({ theme }) => theme.accent};
     color: ${({ active }) => (active ? '#FFF' : '#A78BFA')};
   }
+`;
+
+// TarefaItem Styles
+export const ItemContainer = styled.li`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: ${({ theme }) => theme.cardBg};
+  border: 1px solid ${({ theme }) => theme.border};
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+`;
+
+export const TaskText = styled.span`
+  cursor: pointer;
+  text-decoration: ${({ completed }) => (completed ? 'line-through' : 'none')};
+  color: ${({ completed, theme }) => (completed ? theme.completed : theme.text)};
+  opacity: ${({ completed }) => (completed ? 0.4 : 1)};
+  flex: 1;
+  margin-left: 10px;
+  transition: all 0.2s ease;
+`;
+
+export const DeleteButton = styled.button`
+  background: transparent;
+  color: ${({ theme }) => theme.danger};
+  border: 1px solid transparent;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: ${({ theme }) => theme.danger};
+    background: rgba(239, 68, 68, 0.1);
+  }
+`;
