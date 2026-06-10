@@ -1,5 +1,5 @@
 export const lightTheme = {
-  background: '#F1F5F9',
+  background: '#f5faff',
   cardBg: '#FFFFFF',
   text: '#1E293B',
   textMuted: '#64748B',
@@ -18,6 +18,6 @@ export const darkTheme = {
   accent: '#8B5CF6',         
   accentHover: '#A78BFA',    
   border: '#2A3347',         
-  danger: '#EF4444',         
+  danger: '#ff0000',         
   completed: '#475569'    
 };

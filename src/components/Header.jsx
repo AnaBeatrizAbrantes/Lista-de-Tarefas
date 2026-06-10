@@ -4,7 +4,7 @@ import { HeaderContainer, ThemeToggleButton } from '../styles/components/Header.
 export default function Header({ theme, toggleTheme }) {
   return (
     <HeaderContainer>
-      <h1>DO IT NOW</h1>
+      <h1>CheckList</h1>
       <ThemeToggleButton onClick={toggleTheme}>
         {theme === 'light' ? 'Modo Escuro' : 'Modo Claro'}
       </ThemeToggleButton>
