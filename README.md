@@ -1,16 +1,64 @@
-# React + Vite
+# CheckList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo de gerenciamento de tarefas desenvolvido em React, com suporte a troca de temas (Light e Dark Mode) e persistência de dados local.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Adicionar e remover tarefas: Permite a criação e exclusão de itens de forma direta.
+- Marcar como concluída: Altera o status visual da tarefa ao ser finalizada.
+- Filtros por status: Opções para visualizar todas as tarefas, apenas as ativas ou apenas as concluídas.
+- Alternância de tema: Suporte a modo claro e modo escuro com transição de cores.
+- Persistência de dados: O estado das tarefas e o tema selecionado são salvos no `localStorage` do navegador.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Vite)
+- Styled-Components
+- JavaScript (ES6+)
+- Git e GitHub
+
+---
+
+## Estrutura do Projeto
+
+```text
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── TarefaItem.jsx
+│   ├── FormularioTarefa.jsx
+│   └── Filtros.jsx
+├── styles/
+│   ├── GlobalStyle.js
+│   ├── Themes.js
+│   └── components/
+│       ├── Header.styles.js
+│       └── Tarefa.styles.js
+├── App.jsx
+└── main.jsx
+```
+## Como Executar
+
+Siga os comandos abaixo no terminal para rodar o projeto em sua máquina:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/AnaBeatrizAbrantes/Lista-de-Tarefas.git
+```
+Acesse o diretório do projeto:
+```bash
+cd Lista-de-Tarefas
+```
+Instale as dependências necessárias:
+```Bash
+npm install
+```
+Inicie o servidor de desenvolvimento:
+```Bash
+npm run dev
+```
+
+Acesse o endereço local indicado no terminal.
