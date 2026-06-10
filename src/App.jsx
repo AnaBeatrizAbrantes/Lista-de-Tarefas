@@ -54,7 +54,7 @@ export default function App() {
 
   const tarefasFiltradas = tarefas.filter((t) => {
     if (filtro === 'ativas') return !t.concluida;
-    if (filtro === 'concluídas') return t.concluida;
+    if (filtro === 'concluidas') return t.concluida;
     return true;
   });
 
