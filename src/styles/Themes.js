@@ -1,25 +1,23 @@
 export const lightTheme = {
   background: '#F1F5F9',
-  cardBackground: '#FFFFFF',
+  cardBg: '#FFFFFF',
   text: '#1E293B',
-  textSecondary: '#64748B',
-  primary: '#8B5CF6',
-  primaryHover: '#7C3AED',
-  buttonText: '#FFFFFF',
+  textMuted: '#64748B',
+  accent: '#8B5CF6',
+  accentHover: '#7C3AED',
   border: '#E2E8F0',
-  inputBorder: '#CBD5E1',
-  inputFocus: '#8B5CF6'
+  danger: '#EF4444',
+  completed: '#94A3B8'
 };
 
 export const darkTheme = {
-  background: '#0B0E14',       
-  cardBackground: '#1A1F2C',    
-  text: '#E2E8F0',             
-  textSecondary: '#94A3B8',   
-  primary: '#8B5CF6',        
-  primaryHover: '#A78BFA',     
-  buttonText: '#FFFFFF',       
-  border: '#2A3347',           
-  inputBorder: '#334155',      
-  inputFocus: '#8B5CF6'    
+  background: '#0B0E14',      
+  cardBg: '#1A1F2C',         
+  text: '#E2E8F0',           
+  textMuted: '#94A3B8',       
+  accent: '#8B5CF6',         
+  accentHover: '#A78BFA',    
+  border: '#2A3347',         
+  danger: '#EF4444',         
+  completed: '#475569'    
 };
